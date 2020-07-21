@@ -12,7 +12,7 @@ Config server connect to GIT, SVN server to read the properties files.
     It tell that, this spring boot application contains config server so that another services could get config from the application.
     
     
-4. Add config file into Git repo with format <service-name>-<profile-name>.properties (database-config-vn.properties or cat-x-y.properties) 
+4. Add config file into Git repo with format [service-name]-[profile-name].properties (database-config-vn.properties or cat-x-y.properties) 
     Config lines inside this file will follow rules same with application.properties
     
     my-app.database.host=us.locahost:4040
