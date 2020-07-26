@@ -1,4 +1,4 @@
-# Create a microservice client which connects to config server to abtain configuration
+# Create a microservice client which connects to config server to obtain configuration
 
 1. Add necessary dependencies: **spring-boot-starter-web**, **spring-cloud-starter-config** (config client), **spring-boot-devtools** (optional)
     [pom file](https://github.com/colenhuttran/microservices/blob/master/car-store-ms/pom.xml)
