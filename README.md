@@ -9,3 +9,4 @@
     Take a look to this post to know more about [**netflix eureka naming server**](https://www.baeldung.com/spring-cloud-netflix-eureka)
 
 
+4. Build **config client** to be **eureka client** so that i could be discovered by others services [car-store-ms](https://github.com/colenhuttran/microservices/tree/master/car-store-ms)
