@@ -12,4 +12,4 @@
 4. Build **config client** to be **eureka client** so that i could be discovered by others services [Phase 2:car-store-ms](https://github.com/colenhuttran/microservices/tree/master/car-store-ms)
 
 
-5. Create **consume car store** to get data from **car store (config client)**. Car store provides list of car and get car by price via REST API, **consume car store** fetchs data from the API by using **Open feign** after **consume car store** discovered **car stor** by naming server **netflix eureka**.
+5. Create [**consume car store**](https://github.com/colenhuttran/microservices/tree/master/consume-car-store-ms) to get data from **car store (config client)**. Car store provides list of car and get car by price via REST API, **consume car store** fetchs data from the API by using **Open feign** after **consume car store** discovered **car stor** by naming server **netflix eureka**.
